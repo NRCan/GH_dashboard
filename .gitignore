@@ -1,0 +1,16 @@
+# Tableau Packaged Workbook Files
+**.twbx
+
+# Data files
+**.csv
+**.xlsx
+**.hyper
+
+# Environment Files
+Data Prep/gh_env
+
+# Tests
+Data Prep/tests
+
+# Shape Files (Too Large)
+Files for Tableau/Shapes Files
