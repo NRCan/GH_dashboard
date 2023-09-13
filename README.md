@@ -1,6 +1,8 @@
 # Greener Homes Dashboard
 This repo contains all the necessary files for generating your own copy of the GH Tableau Dashboard. You will need to download and locally house all data included in the dashboard. 
 
+If you have any questions, please reach out to brandon.elford@nrcan-rncan.gc.ca for assistance. 
+
 ## Requirements
 Below is a list of necessary applications and software to generate or update the dashboard:
 * Python 3
@@ -18,5 +20,3 @@ Below is a list of data currently used in the dashboard:
 * Map files.
   * [Population Aggregates by FSA](https://041gc.sharepoint.com/:f:/s/EETSPIE-SEETEIPE/EsNiTo2rH09IvKpCfk8-7UYBgufLZR6mJeI0C7H34PdImA?e=eNRlJg)
      * Place in ```Files for Tableau/Shapes Files/.```, though you may need to request for access from the repository admin.
-
-If you have any questions, please reach out to brandon.elford@nrcan-rncan.gc.ca for assistance. 
