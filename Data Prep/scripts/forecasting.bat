@@ -1,2 +1,3 @@
 @ECHO OFF
-python "C:\Users\belford\Documents\Projects\Greener Homes\GH Dashboard\Data Prep\gen_forecast.py" & echo "Forecasting Complete!" & pause
+set home_dir=%cd%
+python "%home_dir%\Data Prep\gen_forecast.py" & echo "Forecasting Complete!" & pause
