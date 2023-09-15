@@ -1,10 +1,4 @@
-import sys
-import os,glob
-import argparse
-
-from typing import Iterable
-import datetime, time
-from datetime import datetime as dt
+import os
 
 import warnings
 warnings.simplefilter(action='ignore')
@@ -12,8 +6,7 @@ warnings.simplefilter(action='ignore')
 import numpy as np
 import pandas as pd
 
-from sklearn.linear_model import LinearRegression, Lasso, SGDRegressor, ElasticNet
-from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.linear_model import LinearRegression, Lasso, ElasticNet
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
@@ -21,8 +14,9 @@ import warnings
 warnings.filterwarnings("ignore")
 
 # from Scripts.dur_data_gen import generate_labels, populate_durations
-
-DIR_PATH="C:\\Users\\belford\\Documents\\Projects\\Greener Homes\\GH Dashboard\\Files for Tableau\\"
+HOME = os.path.expanduser("~")
+WORK_DIR = os.getcwd()
+DIR_PATH = os.path.join(HOME,WORK_DIR,"\\Files for Tableau\\")
 SAVE = False
 PREFIX = ''
 SUFFIX = ''

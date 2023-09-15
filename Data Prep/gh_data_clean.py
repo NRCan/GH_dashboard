@@ -1,8 +1,5 @@
-import sys
-import os,glob
-import argparse
+import os, glob
 
-from typing import Iterable
 import datetime, time
 from datetime import datetime as dt
 
@@ -16,11 +13,10 @@ import pandas as pd
 from pandas import DataFrame
 from pandas.tseries.offsets import MonthBegin
 
-import holidays
-
 # from Scripts.dur_data_gen import generate_labels, populate_durations
-
-DIR_PATH="C:\\Users\\belford\\Documents\\Projects\\Greener Homes\\GH Dashboard\\Data Prep\\"
+HOME = os.path.expanduser("~")
+WORK_DIR = os.getcwd()
+DIR_PATH = os.path.join(HOME,WORK_DIR,"\\Data Prep\\")
 SAVE = True
 PREFIX = ''
 SUFFIX = ''
