@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 # from Scripts.dur_data_gen import generate_labels, populate_durations
 HOME = os.path.expanduser("~")
 WORK_DIR = os.getcwd()
-DIR_PATH = os.path.join(HOME,WORK_DIR,"\\Files for Tableau\\")
+DIR_PATH = os.path.join(WORK_DIR,"Files for Tableau\\")
 SAVE = False
 PREFIX = ''
 SUFFIX = ''

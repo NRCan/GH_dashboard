@@ -16,7 +16,7 @@ from pandas.tseries.offsets import MonthBegin
 # from Scripts.dur_data_gen import generate_labels, populate_durations
 HOME = os.path.expanduser("~")
 WORK_DIR = os.getcwd()
-DIR_PATH = os.path.join(HOME,WORK_DIR,"\\Data Prep\\")
+DIR_PATH = os.path.join(WORK_DIR,"Data Prep\\")
 SAVE = True
 PREFIX = ''
 SUFFIX = ''
