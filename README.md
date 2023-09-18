@@ -20,3 +20,7 @@ Below is a list of data currently used in the dashboard:
 * Map files.
   * [Population Aggregates by FSA](https://041gc.sharepoint.com/:f:/s/EETSPIE-SEETEIPE/EsNiTo2rH09IvKpCfk8-7UYBgufLZR6mJeI0C7H34PdImA?e=eNRlJg)
      * Place in ```Files for Tableau/Shapes Files/.```, though you may need to request for access from the repository admin.
+
+## Common Issues
+### Collecting all necessary data
+When downloding this repository you will be required to collect all of the Greener Homes Salesforce history to fully populate the dashboard. This step is only required when first downloading this dashboard repository. You are recommended to download the ``Application data" by year, (i.e. change the filters on Salesforce to show data up until 01/01/22, then between 01/01/22-01/01/23, etc) because the entire history in a single file is very large. 
